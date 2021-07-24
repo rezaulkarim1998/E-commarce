@@ -1,0 +1,53 @@
+/* font-family: 'Handlee', cursive; */
+
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+/* header start here  */
+.navbar{
+    padding:1% 10%;
+    background-color:rgba(0,0,0, 0.3);
+}
+.navbar-icon{
+    color:#fff;
+}
+.navbar-brand img{
+    width:60px;
+    height:auto;    
+}
+.nav-link{
+    color:#fff;
+    margin:5px;
+    transition:.4s;
+}
+.nav-link:hover{
+    background:#2980b9;
+    transform:scale(1.1);
+    color:#fff;
+}
+header{
+    background-image:url(../images/banner-photo.jpg);
+    
+    background-position:center;
+    background-size:cover;
+   
+    background-repeat: no-repeat;
+}
+.banner-container{
+    height:100vh;
+}
+.banner-container h1{
+    font-size:3.5rem;
+    background:rgba(7, 108, 189, 0.6);
+    font-family:'Handlee', cursive; ;
+    padding:10px 20px;
+    border-radius:10px;
+
+}
